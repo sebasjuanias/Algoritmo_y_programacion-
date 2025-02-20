@@ -1,0 +1,19 @@
+Algoritmo cambio_divisas
+	//entrada
+	Escribir "Chelines austríacos"
+	Leer cheaustriacos
+	Escribir "dracmas griegos"
+	Leer dracgriegos
+	Escribir "pesetas"
+	Leer pesetas
+	//caja negra
+	peseta<-cheaustriacos*9.56871
+	franco_frances<-(dracgriegos*0.88607)*(1/20.110)
+	dolares<-peseta*(1/122.499)
+	liras<-peseta*(100/9289)
+	//salida
+	Escribir peseta, " Pesatas "
+	Escribir franco_frances, " Franco frances "
+	Escribir dolares, " dorales " 
+	Escribir liras, " liras "
+FinAlgoritmo

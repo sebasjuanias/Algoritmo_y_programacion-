@@ -1,0 +1,24 @@
+Algoritmo promedio_general
+	//entrada
+	Escribir "examen matematicas"
+	Leer nota1_mate
+	Escribir "tarea matematicas"
+	Leer nota2_mate
+	Escribir "examen fisica"
+	Leer nota1_fisica
+	Escribir "tarea fisica"
+	Leer nota2_fisica
+	Escribir "examen quimica"
+	Leer nota1_quim
+	Escribir "tarea quimica"
+	Leer nota2_quimi
+	//caja negra
+	Promedio_Matematicas<-(nota1_mate*0.9)+( nota2_mate*0.1)
+	Promedio_Fisica<-(nota1_fisica*0.8)+(nota2_fisica*0.2)
+	Promedio_Quimica<-(nota1_quim*0.85)+(nota2_quimi*0.15)
+	//salida
+	Escribir Promedio_Matematicas, "Nota matematicas"
+	Escribir Promedio_Fisica, "Nota fisica"
+	Escribir Promedio_Quimica, "Nota quimica"
+	Escribir (Promedio_Fisica+Promedio_Matematicas+Promedio_Quimica)/3, "Promedio general"
+FinAlgoritmo

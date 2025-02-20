@@ -1,0 +1,23 @@
+Algoritmo dinero_banco
+	//entrada
+	Escribir "billete de $50 mil"
+	Leer N1
+	Escribir "billete de $20 mil"
+	Leer N2
+	Escribir "billete de $10 mil"
+	Leer N3
+	Escribir "billete de $5 mil"
+	Leer N4
+	Escribir "billete de $2 mil"
+	Leer N5
+	Escribir "billete de mil"
+	Leer N6
+	Escribir "billete de quinientos"
+	Leer N7
+	Escribir "billete de cien"
+	Leer N8
+	//caja negra
+	dinero_total<-(N1*50000)+(N2*20000)+(N3*10000)+(N4*5000)+(N5*2000)+(N6*1000)+(N7*500)+(N8*100)
+	//salida
+	Escribir dinero_total
+FinAlgoritmo

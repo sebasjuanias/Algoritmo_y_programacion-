@@ -1,0 +1,17 @@
+Algoritmo Salario_comisiones
+	//entrada
+	Escribir "sueldo base"
+	Leer salario
+	Escribir "venta 1"
+	Leer venta_uno
+	Escribir "venta 2"
+	Leer venta_dos
+	Escribir "venta 3"
+	Leer venta_tres
+	//caja negra
+	suma_venta<-venta_uno+venta_dos+venta_tres
+	comisiones<-(suma_venta*0.1)
+	//salida
+	Escribir comisiones, " de comisiones "
+	Escribir salario+comisiones, " total salario base + comisiones "
+FinAlgoritmo

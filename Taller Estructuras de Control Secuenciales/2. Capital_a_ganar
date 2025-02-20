@@ -1,0 +1,13 @@
+Algoritmo Capital_a_ganar
+	//entrada
+	Escribir "inversion"
+	Leer Capital
+	Escribir "tiempo"
+	Leer meses
+	Escribir "intereses"
+	Leer tasa
+	//caja negra
+	valorfinal<-Capital*meses*tasa
+	//salida
+	Escribir valorfinal+Capital, "COP"
+FinAlgoritmo

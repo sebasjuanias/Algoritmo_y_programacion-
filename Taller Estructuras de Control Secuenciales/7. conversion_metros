@@ -1,0 +1,11 @@
+Algoritmo conversion_metros
+	//entrada
+	Escribir "Cantidad Metros"
+	Leer metros
+	//caja negra
+	pulgadas<-metros*39.27
+	pies<-pulgadas/12
+	//salidas
+	Escribir pies, " pies "
+	Escribir pulgadas, " pulgadas "
+FinAlgoritmo

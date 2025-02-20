@@ -1,0 +1,13 @@
+Algoritmo prestamos_Bolivares
+	//entrada
+	Escribir "prestamo"
+	Leer capital
+	Escribir "años"
+	Leer tiempo
+	Escribir "interes"
+	Leer pago_final
+	//caja negra
+	interes<-(pago_final/(tiempo*capital))*100
+	//salida
+	Escribir interes, " % "
+FinAlgoritmo

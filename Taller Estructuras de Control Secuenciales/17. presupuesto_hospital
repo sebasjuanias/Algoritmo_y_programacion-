@@ -1,0 +1,13 @@
+Algoritmo presupuesto_hospital
+	//entrada
+	Escribir "Presupuesto total"
+	Leer presupuesto
+	//caja negra
+	Ginecologia<-presupuesto*0.4
+	Traumatologia<-presupuesto*0.3
+	Pediatria<-presupuesto*0.3
+	//salida}
+	Escribir "Presupuesto Ginecologia", " $" Ginecologia
+	Escribir "Presupuesto Traumatologia", " $" Traumatologia
+	Escribir "Presupuesto Pediatria", " $" Pediatria
+FinAlgoritmo

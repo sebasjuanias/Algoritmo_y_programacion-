@@ -1,0 +1,12 @@
+Algoritmo precio_publico
+	//entrada
+	Escribir "PVP"
+	Leer precio_venta
+	Escribir "precio final"
+	Leer precio_pagado
+	//caja negra
+	descuento<-precio_venta-precio_pagado
+	porcentaje_descuento<-(descuento/precio_venta)*100
+	//salida
+	Escribir porcentaje_descuento " % "
+FinAlgoritmo

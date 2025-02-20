@@ -1,0 +1,14 @@
+Algoritmo pago_luz
+	//entrada
+	Escribir "lectura anterior"
+	Leer lectura1
+	Escribir "lectura actual"
+	Leer lectura2
+	Escribir "precio Kilovatio"
+	Leer kw
+	//caja negra
+	consumo<-lectura2-lectura1
+	total_pago<-consumo*kw
+	//salida
+	Escribir total_pago
+FinAlgoritmo

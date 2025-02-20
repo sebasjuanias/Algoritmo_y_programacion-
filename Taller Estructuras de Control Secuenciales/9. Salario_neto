@@ -1,0 +1,12 @@
+Algoritmo Salario_neto
+	//entrada
+	Escribir "horas trabajadas"
+	Leer horas
+	Escribir "precio hora"
+	Leer precio_hora
+	//caja_negra
+	salario_bruto<-horas*precio_hora
+	salarioneto<-(salario_bruto*0.2)
+	//salida
+	Escribir salario_bruto-salarioneto, " salario neto "
+FinAlgoritmo

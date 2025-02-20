@@ -1,0 +1,13 @@
+Algoritmo Promedio_hombres_mujeres
+	//Entrada
+	Escribir "cantidad hombres"
+	Leer numeroHombres
+	Escribir "cantidad mujeres"
+	Leer numeroMujeres
+	//caja negra
+	total_estudiantes<-numeroHombres+numeroMujeres
+	porcentaje_hombres<-(numeroHombres/total_estudiantes)*100
+	porcentaje_mujeres<-(numeroMujeres/total_estudiantes)*100
+	//salida
+	Escribir porcentaje_hombres, " % ", porcentaje_mujeres, " % " 
+	FinAlgoritmo

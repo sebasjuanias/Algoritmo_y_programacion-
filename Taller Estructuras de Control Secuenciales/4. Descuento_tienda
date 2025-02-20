@@ -1,0 +1,11 @@
+Algoritmo Descuento_tienda
+	//entrada
+	Escribir "porcentaje"
+	Leer descuento
+	Escribir "compra"
+	Leer valor_compra
+	//caja negra
+	valor_final<-valor_compra*descuento
+	//salida
+	Escribir valor_compra-valor_final, "COP"
+	FinAlgoritmo

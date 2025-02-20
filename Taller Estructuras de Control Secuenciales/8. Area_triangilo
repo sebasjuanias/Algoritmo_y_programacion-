@@ -1,0 +1,14 @@
+Algoritmo Area_triangilo
+	//entrada
+	Escribir "lado 1"
+	Leer lado_uno
+	Escribir "lado 2"
+	Leer lado_dos
+	Escribir "lado 3"
+	Leer lado_tres
+	//caja negra
+	semi<-(lado_uno+lado_dos+lado_tres)/2
+	area<-((semi*(semi-lado_uno)*(semi-lado_dos)*(semi-lado_tres)))^(1/2)
+	//salida
+	Escribir area, " Area del triangulo "
+FinAlgoritmo
