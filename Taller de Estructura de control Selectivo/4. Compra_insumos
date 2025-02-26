@@ -1,0 +1,21 @@
+#entradas
+Departamento1=int(input("Departamento 1"))
+Departamento2=int(input("Departamento 2"))
+Departamento3=int(input("Departamento 3"))
+
+salario_bruto=int(input("Salario bruto"))
+#caja negra
+Ventas_totales=Departamento1+Departamento2+Departamento3
+Incentivo=Ventas_totales*0.33
+
+if(Departamento1>Incentivo):
+    print("Salario vendedor 1 =", (salario_bruto*0.2)+salario_bruto, " COP ")
+elif(Departamento2>Incentivo):
+    print("Salario vendedor 2 =", (salario_bruto*0.2)+salario_bruto, " COP ")
+elif(Departamento3>Incentivo):
+    print("Salario vendedor 3 =", (salario_bruto*0.2)+salario_bruto, " COP ")  
+else:
+    print("Salario vendedor 1", (salario_bruto*0)+salario_bruto, " COP ")
+    print("Salario vendedor 2", (salario_bruto*0)+salario_bruto, " COP ")
+    print("Salario vendedor 3", (salario_bruto*0)+salario_bruto, " COP ")  
+    
